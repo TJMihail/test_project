@@ -6,3 +6,4 @@ future_age = age + travel
 
 print('Привет,', user_name)
 print('Через', travel, 'лет тебе будет', future_age)
+
