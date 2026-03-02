@@ -45,5 +45,14 @@ print(student)
 a = '-'
 print(a * 40)
 
-
+store = {
+"phones": ["iPhone", "Samsung"],
+"brands": {"Apple", "Google"},
+"status": ("Open", 9, 21)
+}
+store["phones"].append("Xiaomi")
+store["brands"].add("Samsung")
+#store["status"][1] = "10" Кортежи не изменяемы
+del store["status"]
+print(store)
 
