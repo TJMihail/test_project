@@ -12,6 +12,7 @@ public class SearchJUnit5 {
    @Test
     void  JUnit5(){
        Configuration.holdBrowserOpen = true;
+       Configuration.browserSize = "1920x1080";
        open("https://github.com/selenide/selenide");
        $("[href=\"/selenide/selenide/wiki\"]").click();
        $("[placeholder=\"Find a page or section…\"]").setValue("SoftAssertions").pressEnter();
